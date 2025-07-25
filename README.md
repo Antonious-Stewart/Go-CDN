@@ -1,7 +1,3 @@
-Great! Let’s design and build a **full-featured CDN** in Go — something you can grow and deploy as a side project or even benchmark locally.
-
----
-
 ## 🎯 Goal: Full-Feature CDN Project in Go
 
 We'll create a CDN that includes:
@@ -105,5 +101,3 @@ go-cdn/
 | Secure it   | Add HTTPS using Caddy, Nginx, or Let’s Encrypt |
 
 ---
-
-Would you like me to generate a full starter repo with a working origin + edge + load balancer setup to get you going immediately?
