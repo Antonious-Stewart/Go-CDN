@@ -1,20 +1,12 @@
 package main
 
 import (
-	"net/http"
+	"github.com/Antonious-Stewart/Go-CDN/cmd/origin"
+	"github.com/Antonious-Stewart/Go-CDN/internal/middleware"
 )
 
-func originServer() {
-}
-
-func edgeServer(address string) *http.Client {
-	return &http.Client{}
-}
-
-func serveStaticFromDisk() {
-
-}
-
 func main() {
+	logMiddleware := middleware.Log{}
 
+	origin.Server(logMiddleware)
 }

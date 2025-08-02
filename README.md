@@ -28,7 +28,7 @@ go-cdn/
 │   ├── cache/            # Cache logic (in-memory, TTL, ETag)
 │   ├── geo/              # IP geolocation utils
 │   ├── transport/        # HTTP client with caching
-│   └── log/              # Custom logger and metrics
+│   └── middleware/              # Custom logger and metrics
 ├── static/               # Static files for testing (images, CSS, etc.)
 ├── scripts/              # CLI scripts for setup, DB seeds, testing
 ├── go.mod
