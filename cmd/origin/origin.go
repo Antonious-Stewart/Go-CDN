@@ -15,7 +15,6 @@ func Server(logging middleware.Logger) {
 
 	mux.Handle("/static/", logging.Info(http.StripPrefix("/static/", fs)))
 
-	//log.Println("Origin server running on :8080")
 	log.Println("📦 Static CDN running at http://localhost:8080/static/")
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
